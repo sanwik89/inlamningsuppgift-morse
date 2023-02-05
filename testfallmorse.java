@@ -89,6 +89,18 @@ public class testfallmorse {
         Assertions.assertEquals(expected, actual);
 
     }
+    @Test
+    public void invalidMorse(){
+        String expected;
+        String actual;
+
+
+        MorseLogik ml = new MorseLogik();
+        expected = "A[]";
+        actual = ml.convertFromMorse("*-**- *-**- *- *-**-");
+        Assertions.assertEquals(expected, actual);
+
+    }
 }
 
 

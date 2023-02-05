@@ -188,14 +188,13 @@ public class MorseLogik {
 
                 } else if (getReverseMorseHashmap().containsKey(s)) {
                     output += getReverseMorseHashmap().get(s);
-
                 }
 
             }
 
         }
 
-
+output = output.replaceAll("null", "[]"); // lägger till X istället för texten null om användaren skriver ogiltig morse
         return output;
     }
 

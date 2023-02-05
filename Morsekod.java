@@ -61,7 +61,7 @@ public class Morsekod {
                                  1. It only accepts *- and blankspaces as valid inputs.
                                  2. * = Represents short. - = Represents long
                                  3. To separate a letter use 1 blankspace. To separate a word, use 2 blankspaces.
-
+                                 4. If you enter an invalid morse-input after you've entered valid morse, it will be replaced with "[]".
                                 """);
                     }
                 }
